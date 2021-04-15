@@ -1,0 +1,113 @@
+/* font face declarations */
+
+@font-face {
+  font-family: 'ProtoGrotesk';
+  src: url('/assets/fonts/ProtoGrotesk-Regular.otf') format('opentype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'ProtoGrotesk';
+  src: url('/assets/fonts/ProtoGrotesk-Light.otf') format('opentype');
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: 'Copernicus';
+  src: url('/assets/fonts/Copernicus-Book.otf') format('opentype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Copernicus';
+  src: url('/assets/fonts/Copernicus-BookItalic.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Copernicus';
+  src: url('/assets/fonts/Copernicus-Bold.otf') format('opentype');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Copernicus';
+  src: url('/assets/fonts/Copernicus-BoldItalic.otf') format('opentype');
+  font-weight: 700;
+  font-style: italic;
+}
+
+/* type styles */
+
+body {
+  font-size: 18px;
+}
+
+h1,
+h2,
+p {
+  font-family: 'Copernicus';
+}
+
+h1,
+h2 {
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 34px;
+}
+
+h2 {
+  font-size: 28px;
+  font-style: italic;
+  margin-top: 0;
+}
+
+p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+h3,
+figcaption {
+  font-family: 'ProtoGrotesk';
+  font-weight: 200;
+  font-size: 20px;
+}
+
+h3.description {
+  font-size: 1rem;
+}
+
+header span,
+header a,
+footer span,
+footer a {
+  font-family: 'ProtoGrotesk';
+}
+
+/* media queries */
+
+@media (min-width: 710px) {
+  h1 {
+    font-size: 48px;
+  }
+
+  h1 {
+    font-size: 36px;
+  }
+
+  h3,
+  figcaption {
+    font-size: 22px;
+  }
+
+  p {
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 29px;
+  }
+}
